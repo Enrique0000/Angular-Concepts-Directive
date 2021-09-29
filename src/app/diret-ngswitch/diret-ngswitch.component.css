@@ -1,0 +1,18 @@
+.nav-top{
+    color: aqua;
+    cursor: pointer;
+}
+
+.nav-home{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nav-cortes{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nav-contato{
+    cursor: pointer;
+}

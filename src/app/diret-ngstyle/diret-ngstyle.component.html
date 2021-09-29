@@ -1,0 +1,21 @@
+<h3>Diretiva ngStyle</h3>
+<button [style.backgroundColor]="active ? 'blue' : 'red'"
+[style.color]="active ? 'white' : 'yellow'"
+[style.fontWeight]="active ? 'bold' : 'normal'"
+[style.fontSize]="bFontSize + 'px'"
+(click)="active = !active"
+>
+Change the style
+</button>
+<button (click)="increase()">plus</button>
+<button (click)="decrease()">minum</button>
+
+<h3>Diretiva ngStyle</h3>
+<button [ngStyle]="{
+    'backgroundColor': active ? 'blue' : 'red',
+    'color': active ? 'white' : 'yellow',
+    'fontWeight': active ? 'bold' : 'normal',
+    'fontSize': bFontSize + 'px'
+}"
+(click)="active = !active"
+>Change the style</button>

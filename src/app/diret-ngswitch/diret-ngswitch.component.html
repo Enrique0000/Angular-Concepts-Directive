@@ -1,0 +1,19 @@
+<nav class="nav-up">
+<div class="nav-top">
+    <a class="nav-home" (click)="searchOption = 'home'">Home</a>
+    <a class="nav-cortes" (click)="searchOption = 'cortes'">Cortes</a>
+    <a class="nav-contato" (click)="searchOption = 'contato'">Contato</a>
+</div>
+</nav>
+
+<div class="conteudos" [ngSwitch]="searchOption"> 
+<article *ngSwitchCase="'home'">
+Página Home
+</article>
+<article *ngSwitchCase="'cortes'">
+Página Cortes
+</article>
+<article *ngSwitchCase="'contato'">
+Página Contato
+</article>
+</div>

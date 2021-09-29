@@ -1,0 +1,14 @@
+.cube{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
+.nopress{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    background-color: none;
+}

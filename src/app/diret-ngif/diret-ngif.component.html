@@ -1,0 +1,14 @@
+<h1 style="color: darkkhaki;">ngIf directive demonstration!</h1>
+
+<h3 *ngIf="key" 
+style="color: crimson;">
+Look at this list of fishs below
+<ul>
+    <li *ngFor="let fish of fishs">{{ fish }}</li>
+</ul>
+</h3>
+
+<button style="border: none; color: brown;" type="button" (click)="showFishes()">Show the fishes</button>
+<button style="border: none; color: brown;" type="button" (click)="hideFishes()">Hide the fishes</button>
+
+
